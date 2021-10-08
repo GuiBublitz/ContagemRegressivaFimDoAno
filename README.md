@@ -1,7 +1,7 @@
 # #ProjetoPessoal - PLATAFORMA PARA ESTUDO E ORGANIZAÇÃO PESSOAL (Em desenvolvimento)
 
 ## A lógica desse relógio foi trabalhada em JavaScript com código totalmente dinâmico, sem necessidade de atualização. Site 100% responsivo, desenvolvido com CSS3 e HTML5 puro. 
-## Link Site: <a href="https://guibublitz.github.io/ContagemRegressivaFimDoAno/" target="_blank">Clique aqui!</a>
+# Link: <a href="https://guibublitz.github.io/ContagemRegressivaFimDoAno/">Clique aqui para abir o projeto no seu navegador</a>.
 
 ## Tecnologias: 
    ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
