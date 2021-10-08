@@ -1,0 +1,393 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Calibri;
+}
+html,body{
+	height: 100%;
+	background-color: #f3f3f3;
+	
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+}
+.container{
+	max-width: 1400px;
+	margin: 0 auto;
+	width: 100%;
+}	
+.clear{
+	clear: both;
+}
+/*COMEÇO DO MEU HEADER////////////////////////////////////////////////////////////*/
+header{
+
+	padding: 10px 2%;
+	width: 100%;
+	background: #434a54;
+}
+header .header-logo{
+	float: left;
+}
+header .header-logo h1{
+	color: #e6e9ee;
+	font-size: 42px;
+}
+header .menu-desktop{
+	float: right;
+}
+header .menu-desktop ul{
+	margin-right: 50px;
+	list-style-type: none;
+	padding: 18px 0;
+}
+header .menu-desktop ul li{
+	float: left;
+	padding: 0 25px;
+	text-transform: uppercase;
+}
+header .menu-desktop ul li a{
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	border-bottom: 3px solid rgba(255,255,255,0.1);
+}
+header .menu-desktop ul li a:hover{
+	border-bottom: 3px solid rgba(200,200,100,1);
+	color: rgb(230,230,230);
+}
+/*FIM DO MEU HEADER///////////////////////////////////////////////////////////////*/
+
+/*COMEÇO SECTION TIMER////////////////////////////////////////////////////////////*/
+section.timer{
+	padding: 0 2%;
+}
+section.timer > .container{
+	text-align: center;
+}
+section.timer .container > h2{
+	display: inline-block;
+	text-align: center;
+	padding: 30px 0;
+	font-size: 38px;
+	color: #656d78;
+}
+section.timer .box-container{
+	width: 100%;
+	max-width: 750px;
+	margin:0 auto;
+}
+section.timer .box-container .box{
+	margin: 5px;
+	float: left;
+	width: 23.6%;
+	min-width: 130px;
+	background-color: #f3f3f3;
+	border: 1.4px solid #ccd0d9;
+	border-radius: 4px;
+	box-shadow: #ccd0d9 2px 2px 8px;
+	position: relative;
+}
+section.timer .box-container .box > .dados h2{
+	margin-top: 15px;
+	padding: 5px;
+	font-size: 40px;
+	color: #434a54;
+	font-weight: bold;
+}
+section.timer .box-container .box > .dados p{	
+	padding: 5px;
+	margin-bottom: 18px;
+	color: #656d78;
+	font-size: 20px;
+}
+/*FIM DO SECTION TIMER////////////////////////////////////////////////////////////*/
+
+/*COMEÇO DO MEU SECTION METAS-CONTAINER////////////////////////////////////////////*/
+.metas-container{
+	width: 100%;
+}
+.content-metas{
+	padding: 50px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 80vw;
+	max-width: 830px;
+}
+div.titulo-metas{
+	float: left;
+}
+div.titulo-metas h2{
+	font-size: 26px;
+	color: #656d78;
+}
+div.input-metas{
+	float: left;
+}
+div.input-metas input[type=text]{
+	padding: 2px 5px;
+	border-radius: 10px;
+	height: 28px;
+	width: 135px;
+	margin-left: 20px;
+	position: relative;
+	top: 3px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #f3f3f3;
+	border: 1px solid #ccd0d9;
+	box-shadow: #ccd0d9 2px 2px 4px;
+}
+.box-metas{
+	float: left;
+	width: 100%;
+	padding: 10px 0;
+}
+.box-metas .big-box{
+	float:left;
+	width: 73%;
+	height: 200px;
+	background-color: #f3f3f3;
+	border: 1.4px solid #ccd0d9;
+	border-radius: 4px;
+	box-shadow: #ccd0d9 2px 2px 8px;
+}
+.btns-datas{
+	margin-left: 6px;
+	border-radius: 10px;
+	float: left;
+	height: 200px;
+	width: 7%;
+	background-color: #f3f3f3;
+	border: 1.4px solid #ccd0d9;
+	border-radius: 10px;
+	box-shadow: #ccd0d9 2px 2px 8px;
+}
+.btns-datas .btn{
+	cursor: pointer;
+	height: calc(100%/3);
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+.btns-datas .natal{
+	border-radius: 10px 10px 0 0;
+	background-image: url(../imagens/natalIcon.png);
+	background-position: center;
+	background-size: 75% 70%;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 4px;
+}
+.btns-datas .pascoa{
+	background-image: url(../imagens/pascoa.jpg);
+	background-size: 100% 90%;
+	background-position: center;
+	position: relative;
+	top: 4px;
+}
+.btns-datas .carnaval{
+	border-radius: 0 0 10px 10px;
+	background-image: url(../imagens/carnaval.jpg);
+	background-size: 77% 65%;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	bottom: 4px;
+}
+
+
+/*FIM DO MEU SECTION METAS-CONTAINER////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+@media screen and (max-width: 830px){
+
+	/*COMEÇO DO MEU HEADER////////////////////////////////////////////////////////////*/
+	header .menu-desktop{
+		display: none;
+	}
+	/*FIM DO MEU HEADER///////////////////////////////////////////////////////////////*/
+
+	/*COMEÇO SECTION TIMER////////////////////////////////////////////////////////////*/
+	section.timer .box-container .box{
+		width: 21%;
+		text-align: center;
+		float: none;
+		display: inline-block;
+	}
+	/*FIM DO SECTION TIMER////////////////////////////////////////////////////////////*/
+
+	/*COMEÇO DO MEU METAS-CONTAINER///////////////////////////////////////////////////*/
+	div.input-metas input[type=text]{
+		width: 100%;
+	}
+	.box-metas{
+		float: left;
+		width: 100%;
+	}
+	.box-metas .big-box{
+		width: 100%;
+	}
+	/*FIM DO MEU METAS-CONTAINER//////////////////////////////////////////////////////*/
+}
+
+
+@media screen and (max-width: 721px){
+
+	/*COMEÇO DO MEU METAS-CONTAINER///////////////////////////////////////////////////*/
+	div.input-metas{
+		padding: 5px 0;
+	}
+	div.titulo-metas h2{
+		font-size: 26px;
+	}
+	div.input-metas input[type=text]{
+		padding: 2px 6px;
+		height: 30px;
+		width: 178px;
+		margin-left: 0;
+	}
+	.box-metas{
+		float: left;
+		width: 100%;
+	}
+	.box-metas .big-box{
+		width: 100%;
+	}
+	/*FIM DO MEU METAS-CONTAINER//////////////////////////////////////////////////////*/
+}
+
+
+@media screen and (max-width: 600px){
+	
+	/*COMEÇO SECTION TIMER////////////////////////////////////////////////////////////*/
+	section.timer .box-container .box{
+		min-width: 80px;
+		max-height: 110px;
+	}
+	section.timer .box-container .box > .dados p{	
+		padding: 0px 5px 5px 5px;
+		padding-bottom
+		color: #656d78;
+		font-size: 18px;
+	}
+	section.timer .box-container .box > .dados h2{
+		margin-top: 15px;
+		padding: 5px;
+		font-size: 34px;
+		color: #434a54;
+		font-weight: bold;
+	}
+	/*FIM DO SECTION TIMER////////////////////////////////////////////////////////////*/
+
+
+ 	/*COMEÇO DO MEU METAS-CONTAINER///////////////////////////////////////////////////*/
+	div.titulo-metas{
+		width: 100%;
+	}
+	div.titulo-metas h2{
+		text-align: justify;
+		font-size: 26px;
+		width: 100%;
+		max-width: 350px;
+	}
+	/*FIM DO MEU METAS-CONTAINER//////////////////////////////////////////////////////*/
+}
+
+
+
+@media screen and (max-width: 500px){
+
+	/*COMEÇO SECTION TIMER////////////////////////////////////////////////////////////*/
+	section.timer .container > h2{
+		font-size: 30px;
+	}
+	section.timer .box-container .box > .dados p{	
+		font-size: 15px;
+		font-weight: bold;
+	}
+	section.timer .box-container .box > .dados h2{
+		font-size: 28px;
+	}
+	/*FIM DO SECTION TIMER////////////////////////////////////////////////////////////*/
+}
+
+@media screen and (max-width: 400px){
+	/*COMEÇO SECTION TIMER/////////////////////////////////////////////////////////////*/
+	section.timer .box-container{
+		
+	}
+	section.timer .box-container .box{
+		margin: 5px;
+		width: 20%;
+		min-width: 63px;
+	}
+
+	section.timer .box-container .box > .dados h2{
+		font-size: 20px;
+		padding: 0;
+	}
+	section.timer .box-container .box > .dados p{	
+		font-size: 13px;
+		padding: 0;
+	}
+	/*FIM DO SECTION TIMER///////////////////////////////////////////////////////////////*/
+}
+@media screen and (max-width: 320px){
+	/*COMEÇO DO MEU HEADER///////////////////////////////////////////////////////////////*/
+	header{
+		padding: 10px 4%;
+		width: 100%;
+		background: #434a54;
+	}
+	/*FINAL DO MEU HEADER////////////////////////////////////////////////////////////////*/
+
+	/*COMEÇO DO MEU SECTION TIMER////////////////////////////////////////////////////////*/
+	section.timer .box-container .box{
+		margin: 5px;
+		width: 35%;
+	}
+	/*FINAL DO MEU SECTION TIMER////////////////////////////////////////////////////////*/
+	
+}
+
+
+@media screen and (min-width: 1100px){
+
+	/*COMEÇO DO MEU SECTION TIMER////////////////////////////////////////////////////////*/
+	section.timer .box-container{
+		max-width: 930px;
+	}
+	section.timer .box-container .box{
+		min-height: 160px;
+	}
+	section.timer .box-container .box > .dados h2{
+		font-size: 52px;
+	}
+	section.timer .box-container .box > .dados p{	
+		font-size: 25px;
+	}
+	/*FINAL DO MEU SECTION TIMER////////////////////////////////////////////////////////*/
+
+	/*COMEÇO DO MEU METAS-CONTAINER///////////////////////////////////////////////////*/
+	.content-metas{
+		width: 100%;
+		max-width: 1000px;
+	}
+	/*FIM DO MEU METAS-CONTAINER//////////////////////////////////////////////////////*/
+}
